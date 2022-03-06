@@ -1,0 +1,46 @@
+
+.MenuItems{
+    display: flex;
+}
+.header{
+    align-items: center;
+    margin: left;
+    margin: right;
+
+}
+.container{
+    max-width:2000px;
+    margin:auto;
+    padding-left:25px;
+    padding-right:25px;
+}
+.row{
+    display: flex;
+    max-width: auto;
+}
+.header .row{
+    margin-top:70px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:20px;
+}
+nav{
+    flex:1;
+    text-align:right;
+
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+}
+    nav ul li{
+        display:inline-block;
+        margin-right:20px;
+    }
+.col-sm-2{
+    flex-basis: auto;
+    background-color: green;
+    
+}
