@@ -22,9 +22,11 @@
     padding-right:25px;
 }
 .rowGame{
-    display: flex;
+    display: inline-flex;
     margin: auto;
     padding-right: 25px;
+    background-color: #555;
+    
 }
 
 .navbar{
