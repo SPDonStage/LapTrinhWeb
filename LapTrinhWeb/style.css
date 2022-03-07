@@ -1,26 +1,32 @@
-
-.MenuItems{
-    display: flex;
+*{
+    font-family:'Courier New', Courier, monospace;
 }
+
 .header{
     align-items: center;
     margin: left;
     margin: right;
-
+    background: radial-gradient(circle,rgb(249, 237, 105) 0%,rgb(184, 59, 94) 100%,rgb(240, 138, 93) 20%,rgb(106, 44, 112) 100%);
+    
 }
 .container{
-    max-width:2000px;
+    max-width:auto;
     margin:auto;
     padding-left:25px;
     padding-right:25px;
 }
 .row{
     display: flex;
-    max-width: auto;
+    max-width: 2000px;
+    margin:auto;
+    padding-right:25px;
 }
-.header .row{
-    margin-top:70px;
+.rowGame{
+    display: flex;
+    margin: auto;
+    padding-right: 25px;
 }
+
 .navbar{
     display:flex;
     align-items:center;
@@ -29,18 +35,72 @@
 nav{
     flex:1;
     text-align:right;
-
+    text-decoration: none;
+    
 }
 nav ul{
     display:inline-block;
     list-style-type:none;
+    
 }
     nav ul li{
         display:inline-block;
         margin-right:20px;
+        
+        
     }
-.col-sm-2{
-    flex-basis: auto;
-    background-color: green;
+a{
+    color: black;
+    font-style: bold;
+    font-size: large;
+    text-decoration: none;
+}
+a.gh{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 3px;
+    padding-left: 2px;
+}
+.col-lg-4 .input[type=text]{
+    padding-right: 200px;
+
+}
+input[type=text]{
+    border:2px solid black;
+    width: 200px;
+    
+    
+}
+.small-container{
+    
+    margin:auto;
+    max-width: 2000px;
+    align-items: center;
+    
+}
+.title{
+    text-align:center;
+
+    position:relative;
+    line-height:60px;
+    color:#555;
+}
+.col-4{
+    flex-basis: 30%;
+    padding:50px;
+    min-width: 500px;
+}
+
+.col-lg-8{
+    max-width: auto;
+    background-color: aqua;
+    position: relative;
+    right: 20px;
+}
+.col-lg-8 .input[type=text]{
+    position: relative;
+    right: 20px;
     
 }
