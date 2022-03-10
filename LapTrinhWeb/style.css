@@ -84,7 +84,7 @@ a.gh{
 
 input[type=text]{
     border:2px solid black;
-    width: 200px;
+    width: 1000px;
     
     
 }
@@ -96,9 +96,7 @@ input[type=text]{
 }
 .title{
     text-align:center;
-
-  
-    line-height:60px;
+    line-height:30px;
     background-color: #121212;
 }
 
@@ -112,7 +110,7 @@ input[type=text]{
 }
 .col-sm-3{
     
-    padding: 100px;
+    padding-left: 100px;
 }
 
 
